@@ -4,12 +4,14 @@ import './App.css';
 import Stateless from './Components/Stateless';
 import Class from './Components/Class';
 import Hook from './Components/Hook';
+import Todo from './Components/Todo';
 class App extends Component {
   render() {
     return (
       <div className="App container">
         {/* <Class /> */}
-        <Hook />
+        {/* <Hook /> */}
+        <Todo />
       </div>
     );
   }
